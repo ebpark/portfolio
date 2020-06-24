@@ -223,6 +223,11 @@ a.project-link {
 
 /* responsive project pages */
 
+	a.link.left.white {
+		display: none;
+	}
+
+	
 	.hero {
 		height: 70vh;
 		overflow: hidden;
