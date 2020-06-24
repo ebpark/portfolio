@@ -1,0 +1,294 @@
+.hero {
+	width: 100vw;
+	height: 100vh;
+}
+
+.black {
+	background: #a09f9f;
+}
+
+a.link {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 1.2em;
+	text-decoration: none;
+	color: black;
+	position: absolute;
+}
+
+p.link {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.2em;
+	width: 300px;
+	position: absolute;
+	text-align: right;
+	top: 1.4em;
+	right: 1.5em;
+}
+
+a.link:visited {
+	color: black;
+}
+
+a.link.left {
+	top: 1.2em;
+	left: 1.2em;
+	text-align: left;
+}
+
+a.link.left.white {
+	color: white;
+}
+
+
+/* Projects Links */
+.projects {
+	height: 168px;
+	position: absolute;
+	display: inline-block;
+	bottom: 1.2em;
+	left: 1.8em;
+	z-index: 1;
+}
+
+a.project-link {
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	font-weight: 400;
+	font-size: 1.2em;
+	text-decoration: none;
+	color: black;
+	text-align: left;
+	line-height: 1.5em;
+	cursor: pointer;
+}
+
+.project-image {
+	width: 80vw;
+	height: 100vh;
+	opacity: 1;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	z-index: -2;
+}
+
+/* Individual Project Pages */
+.project-title {
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	font-weight: 500;
+	font-size: 1.7em;
+	color: black;
+	text-align: left;
+	line-height: 1.2em;
+	left: 100px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.hero-image {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	z-index: -2;
+}
+
+.hero-image img {
+	width: auto;
+	height: 93.8vh;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#hero-adjust {
+	width: auto;
+	height: 96vh;
+}
+
+.text {
+	width: 100vw;
+	height: auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.project-text {
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	font-weight: 400;
+	font-size: 1em;
+	width: 70vw;
+	color: black;
+	text-align: left;
+	line-height: 1.4em;
+	left: 1.2em;
+	position: relative;
+	left: 100px;
+	margin-bottom: 20px;
+}
+
+.project-image-1 {
+	width: 100vw;
+	height: 700px;
+	position: relative;
+	z-index: -2;
+	overflow: hidden;
+	margin-top: 30px;
+}
+
+.project-image-1 img {
+	width: 80vw;
+	height: auto;
+	max-height: 700px;
+	max-width: 990px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.project-image-2 {
+	width: 100vw;
+	height: 452px;
+	position: relative;
+	z-index: -2;
+	overflow: hidden;
+	margin-top: 30px;
+}
+
+.project-image-2 img {
+	width: 80vw;
+	height: auto;
+	max-height: 700px;
+	max-width: 990px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+/* footer link */
+.footer {
+	width: 100vw;
+	height: 170px;
+	position: relative;
+}
+
+.bottom {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.copyright {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 1.2em;
+	position: absolute;
+	right: 1.2em;
+	bottom: 1.2em;
+}
+
+/* responsive home page */
+@media screen and (max-width: 800px) {
+	p.link.right {
+		left: 1.5em;
+		top: 5em;
+		text-align: left;
+	}
+
+	.copyright {
+		font-size: 1em;
+		left: 1.5em;
+		top: 8em;
+		text-align: left;
+	}
+
+	.projects {
+		height: 205px;
+		bottom: 2em;
+	}
+
+	a.project-link {
+		font-size: 1.2em;
+		line-height: 1.9em;
+	}
+
+/* responsive project pages */
+
+	.hero {
+		height: 70vh;
+		overflow: hidden;
+	}
+
+	.hero-image {
+		width: 100vw;
+		height: 70vh;
+	}
+
+	.hero-image img {
+		width: 90vw;
+		height: auto;
+	}
+
+	#hero-adjust {
+		width: auto;
+		height: 65vh;
+	}
+
+	.project-title {
+		left: 50px;
+	}
+
+	.project-text {
+		width: 80vw;
+		left: 1.2em;
+		left: 50px;
+	}
+
+	.project-image-2 {
+		width: 100vw;
+		height: 40vw;
+		margin-top: 30px;
+	}
+
+	.project-image-2 img {
+		width: 90vw;
+		height: auto;
+		max-height: 700px;
+		max-width: 990px;
+	}
+
+	.footer {
+		width: 100vw;
+		height: 100px;
+		position: relative;
+	}
+
+}
+
+
+/* responsive project pages */
+@media screen and (max-width: 1200px) {
+
+.project-image-1 {
+	width: 100vw;
+	height: 60vw;
+	margin-top: 30px;
+}
+
+.project-image-1 img {
+	width: 90vw;
+	height: auto;
+	max-height: 700px;
+	max-width: 990px;
+}
+
+}
